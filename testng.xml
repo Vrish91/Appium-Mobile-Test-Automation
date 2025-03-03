@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Appium Test Suite">
+    <test name="UI Tests">
+          <classes>
+            <class name="tests.ui.LoginTest"/>
+            <class name="tests.ui.LoginFailureTest"/>
+            <class name="tests.ui.ItemOperations"/>
+            <class name="tests.ui.CartFlow"/>
+            <class name="tests.ui.EndToEndTest"/>  <!-- E2E Flow -->
+        </classes>
+        
+    </test>
+
+</suite> <!-- Suite -->

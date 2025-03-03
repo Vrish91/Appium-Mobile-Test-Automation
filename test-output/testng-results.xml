@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-03T14:01:53 IST" name="Appium Test Suite" finished-at="2025-03-03T14:04:43 IST" duration-ms="170398">
+    <groups>
+    </groups>
+    <test started-at="2025-03-03T14:01:53 IST" name="UI Tests" finished-at="2025-03-03T14:04:43 IST" duration-ms="170398">
+      <class name="tests.ui.EndToEndTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.EndToEndTest@2362f559]" started-at="2025-03-03T14:03:55 IST" name="setUp" finished-at="2025-03-03T14:04:08 IST" duration-ms="13502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEndToEndCheckoutProcess()[pri:0, instance:tests.ui.EndToEndTest@2362f559]" started-at="2025-03-03T14:04:08 IST" name="testEndToEndCheckoutProcess" finished-at="2025-03-03T14:04:42 IST" duration-ms="33437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEndToEndCheckoutProcess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.EndToEndTest@2362f559]" started-at="2025-03-03T14:04:42 IST" name="tearDown" finished-at="2025-03-03T14:04:43 IST" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.EndToEndTest -->
+      <class name="tests.ui.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.LoginTest@3857f613]" started-at="2025-03-03T14:01:53 IST" name="setUp" finished-at="2025-03-03T14:02:06 IST" duration-ms="13250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLogin()[pri:0, instance:tests.ui.LoginTest@3857f613]" started-at="2025-03-03T14:02:06 IST" name="testValidLogin" finished-at="2025-03-03T14:02:15 IST" duration-ms="9383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.LoginTest@3857f613]" started-at="2025-03-03T14:02:15 IST" name="tearDown" finished-at="2025-03-03T14:02:17 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.LoginTest -->
+      <class name="tests.ui.LoginFailureTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.LoginFailureTest@4d1c00d0]" started-at="2025-03-03T14:02:17 IST" name="setUp" finished-at="2025-03-03T14:02:30 IST" duration-ms="13180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLockedOutUserLogin()[pri:0, instance:tests.ui.LoginFailureTest@4d1c00d0]" started-at="2025-03-03T14:02:30 IST" name="testLockedOutUserLogin" finished-at="2025-03-03T14:02:39 IST" duration-ms="9085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedOutUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.LoginFailureTest@4d1c00d0]" started-at="2025-03-03T14:02:39 IST" name="tearDown" finished-at="2025-03-03T14:02:40 IST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.LoginFailureTest -->
+      <class name="tests.ui.ItemOperations">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.ItemOperations@7817fd62]" started-at="2025-03-03T14:02:40 IST" name="setUp" finished-at="2025-03-03T14:02:52 IST" duration-ms="12163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetAppState()[pri:0, instance:tests.ui.ItemOperations@7817fd62]" started-at="2025-03-03T14:02:52 IST" name="resetAppState" finished-at="2025-03-03T14:03:02 IST" duration-ms="9794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppState -->
+        <test-method signature="testAddItemToCart()[pri:0, instance:tests.ui.ItemOperations@7817fd62]" started-at="2025-03-03T14:03:02 IST" name="testAddItemToCart" finished-at="2025-03-03T14:03:07 IST" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemToCart -->
+        <test-method signature="testRemoveItemFromCart()[pri:0, instance:tests.ui.ItemOperations@7817fd62]" started-at="2025-03-03T14:03:07 IST" name="testRemoveItemFromCart" finished-at="2025-03-03T14:03:13 IST" duration-ms="5988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.ItemOperations@7817fd62]" started-at="2025-03-03T14:03:13 IST" name="tearDown" finished-at="2025-03-03T14:03:14 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.ItemOperations -->
+      <class name="tests.ui.CartFlow">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ui.CartFlow@8297b3a]" started-at="2025-03-03T14:03:14 IST" name="setUp" finished-at="2025-03-03T14:03:27 IST" duration-ms="13089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetAppState()[pri:0, instance:tests.ui.CartFlow@8297b3a]" started-at="2025-03-03T14:03:27 IST" name="resetAppState" finished-at="2025-03-03T14:03:35 IST" duration-ms="8404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetAppState -->
+        <test-method signature="testCartFlow()[pri:0, instance:tests.ui.CartFlow@8297b3a]" started-at="2025-03-03T14:03:35 IST" name="testCartFlow" finished-at="2025-03-03T14:03:54 IST" duration-ms="18602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.CartFlow@8297b3a]" started-at="2025-03-03T14:03:54 IST" name="tearDown" finished-at="2025-03-03T14:03:55 IST" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.CartFlow -->
+    </test> <!-- UI Tests -->
+  </suite> <!-- Appium Test Suite -->
+</testng-results>
